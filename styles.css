@@ -1,0 +1,39 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.card {
+  max-width: 320px;
+  padding: 15px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  margin: 15% auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.bold-text {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.light-text {
+  font-weight: 400;
+  color: hsl(220deg, 15%, 55%);
+  margin-bottom: 20px;
+}/*# sourceMappingURL=styles.css.map */

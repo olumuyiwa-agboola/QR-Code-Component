@@ -1,0 +1,60 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+// COLOURS
+$White: hsl(0, 0%, 100%);
+$LightGray: hsl(212, 45%, 89%);
+$GrayishBlue: hsl(220, 15%, 55%);
+$DarkBlue: hsl(218, 44%, 22%);
+$LinkColor: hsl(228, 45%, 44%);
+
+// MEASUREMENTS
+$BorderRadius: 10px;
+
+// .attribution {
+//     font-size: 11px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: flex-end;
+//     a {
+//         color: $LinkColor;
+//     }
+// }
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $LightGray;
+}
+
+.card {
+    max-width: 320px;
+    padding: 15px;
+    background-color: $White;
+    border-radius: $BorderRadius;
+    margin: 15% auto;
+    text-align: center;
+}
+
+img {
+    border-radius: $BorderRadius;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.light-text {
+    font-weight: 400;
+    color: $GrayishBlue;
+    margin-bottom: 20px;
+}
